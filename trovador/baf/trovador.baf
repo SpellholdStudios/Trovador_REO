@@ -1,0 +1,28 @@
+IF
+	Global("trovadornoexiste","ar0700",0)
+THEN
+	RESPONSE #100
+		SetGlobal("trovadornoexiste","ar0700",1)
+		CreateCreature("trovad",[2201.1718],3)
+END
+
+IF
+	PartyHasItem("Trov00")
+	Global("viajcuen","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("CAP01","",[150.150],4))
+		ActionOverride(Player2,LeaveAreaLUA("CAP01","",[150.150],4))
+		ActionOverride(Player3,LeaveAreaLUA("CAP01","",[150.150],4))
+		ActionOverride(Player4,LeaveAreaLUA("CAP01","",[150.150],4))
+		ActionOverride(Player5,LeaveAreaLUA("CAP01","",[150.150],4))
+		ActionOverride(Player6,LeaveAreaLUA("CAP01","",[150.150],4))
+		ActionOverride(Player1,DestroyItem("Trov00"))
+		ActionOverride(Player2,DestroyItem("Trov00"))
+		ActionOverride(Player3,DestroyItem("Trov00"))
+		ActionOverride(Player4,DestroyItem("Trov00"))
+		ActionOverride(Player5,DestroyItem("Trov00"))
+		ActionOverride(Player6,DestroyItem("Trov00"))
+END
+
+
