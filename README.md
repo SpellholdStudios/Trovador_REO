@@ -34,7 +34,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 :page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/btl-readme-english.html)
 
-:inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/26-beyond-the-law)<br>
+:inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/853-trovador-reo)<br>
 
 ## 
 
@@ -55,10 +55,11 @@ http://www.shsforums.net/files/file/853-trovador-reo-v24a/
 
 This mod adds to the game a very special troubadour who will tell for a few gold pieces some never belonged stories. It also adds a shop with curious objects. The mod is available in Spanish only.
 
+No solo Volo conoce historias dignas de ser contadas, hay muchos trovadores y bardos que recorren todo Faerûn arriesgando sus vidas para poder alegrar las tabernas que visitamos.
+
+Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os narrará unas historias nunca oidas e incluso los orígenes de ciertos personajes, como el misterioso Riojano, o Artemis Entreri.
 
 1) Added EE-compatibility (namely, updating item descriptions using your function and added a text transcoder, no other changes were required)
-
-2) Updated WeiDU-installer
 
 3) Now the texts are correctly transferred to the tra-files (previously the tra-file was created, but the texts themselves remained in the d-files, and did not refer to the tra)
 
@@ -119,6 +120,7 @@ This mod adds to the game a very special troubadour who will tell for a few gold
 
 ##### Version 2.5 &nbsp;(October, 2021)
 
+- Renamed *setup-trovador.tp2* -> *trovador.tp2* and moved it to mod top folder to support AL|EN's "Project Infinity".
 - TODO Completed mod traification.
 - TODO then moved it into new :file_folder: "*readme*" folder.
 - Removed useless :file_folder: "*backup*" folder.
@@ -127,11 +129,6 @@ This mod adds to the game a very special troubadour who will tell for a few gold
 - TODO Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
 - Updated WeiDU installer to v247.
 - Uploaded mod to official Spellhold Studios GitHub mirror account.
-
-
-- Compatibilidad EE agregada.
-- Textos codificados correctamente en .TRA (anteriormente, esto no se hacía por completo).
-- Instalador WeiDU actualizado.
 
 ## 
 
