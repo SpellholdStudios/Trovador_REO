@@ -20,7 +20,10 @@ LANGUAGE ~Castellano (Clan REO)~
 /* ============== *
  *  Trovador REO  *
  * ============== */
-BEGIN @0  // ~Trovador~
+BEGIN @0                                           // ~Trovador~
+DESIGNATED 0 LABEL ~trovador_reo~
+REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @10  // ~You must have ToB, BGT, BG2:EE or EET installed to install this mod.~
+
 
 SILENT
 

@@ -1,13 +1,15 @@
 @0    = ~Trovador~
 
+@10   = ~You must have ToB, BGT, BG2:EE or EET installed to install this mod.~
 @11   = ~Installing items...~
 @12   = ~Installing creatures...~
 @13   = ~Compiling dialogues and scripts...~
 
 
-/* =============== *
+/* To be restored when the English translation in released.
+=============== *
  *  WeiDU prompts  *
- * =============== */
+ * =============== *
 @-1000 = ~El mod %TP2_FILE_NAME% tiene~
 @-1001 = ~distintos componentes opcionales.
 Puedes elegir que hacer con ellos a la vez o de uno en uno.
@@ -96,3 +98,4 @@ Por favor, indica que idioma usaste durante la instalacion del mod. Tu eleccion 
 @-1061 = ~
 Usando~
 @-1062 = ~ y ~
+*/
