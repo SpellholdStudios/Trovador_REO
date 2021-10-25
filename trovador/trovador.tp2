@@ -28,8 +28,7 @@ SILENT
  *  Installing creatures  *
  * ---------------------- */
 
-COPY ~trovador/cre/lrm65l.bmp~ ~override~
-COPY ~trovador/cre/lrm65s.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits%ee_file%~ ~override~
 
 COPY ~trovador/cre/trovad.cre~ ~override~
 	SAY NAME1 @100
