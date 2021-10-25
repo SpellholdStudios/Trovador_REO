@@ -28,6 +28,9 @@ SILENT
  *  Installing creatures  *
  * ---------------------- */
 
+PRINT @12
+SILENT
+
 COPY ~%MOD_FOLDER%/portraits%ee_file%~ ~override~
 
 COPY ~trovador/cre/trovad.cre~ ~override~
@@ -38,9 +41,12 @@ COPY ~trovador/sto/trovad1.sto~ ~override~
 	SAY NAME1 @100
 
 
-/* --------------------------------- *
- *  Installing dialogues and script  *
- * --------------------------------- */
+/* ---------------------------------- *
+ *  Installing dialogues and scripts  *
+ * ---------------------------------- */
+
+PRINT @13
+SILENT
 
 COMPILE ~trovador/d/trovador.d~
 
@@ -52,6 +58,9 @@ EXTEND_BOTTOM ~ar0700.bcs~ ~trovador/baf/trovador.baf~
 /* ------------------ *
  *  Installing Items  *
  * ------------------ */
+
+PRINT @11
+SILENT
 
 COPY ~trovador/itm/trov01.itm~ ~override~
 	SAY NAME1 @101

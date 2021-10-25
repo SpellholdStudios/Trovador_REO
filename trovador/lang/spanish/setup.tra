@@ -1,5 +1,8 @@
 @0    = ~Trovador~
 
+@11   = ~Installing items...~
+@12   = ~Installing creatures...~
+@13   = ~Compiling dialogues and scripts...~
 
 
 /* =============== *
