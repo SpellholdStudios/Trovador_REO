@@ -202,6 +202,9 @@ COPY ~trovador/itm/dtsper01.itm~ ~override~
 COPY ~trovador/itm/dtsw1h01.itm~ ~override~
 	SAY NAME2 @214
 	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@216" END
+	PATCH_IF is_ee BEGIN
+		LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 319 target = 1 timing = 2 parameter1 = 21 parameter2 = 5 power = 0 special = 103061 END	// Restrict Item (Usability: Item Usability) : 21 Shaman - 5 Class.ids
+	END
 
 COPY ~trovador/itm/dtsw1h02.itm~ ~override~
 	SAY NAME2 @217
@@ -250,6 +253,9 @@ COPY ~trovador/itm/daglad.itm~ ~override~
 COPY ~trovador/itm/cimlech.itm~ ~override~
 	SAY NAME2 @238
 	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@240" END
+	PATCH_IF is_ee BEGIN
+		LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 319 target = 1 timing = 2 parameter1 = 21 parameter2 = 5 power = 0 special = 103061 END	// Restrict Item (Usability: Item Usability) : 21 Shaman - 5 Class.ids
+	END
 
 COPY ~trovador/itm/ancal.itm~ ~override~
 	SAY NAME2 @241
@@ -266,10 +272,16 @@ COPY ~trovador/itm/poccla.itm~ ~override~
 COPY ~trovador/itm/flepix1.itm~ ~override~
 	SAY NAME2 @248
 	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@250" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ INT_VAR GW_shaman = 1 END	
+	END
 
 COPY ~trovador/itm/flepix2.itm~ ~override~
 	SAY NAME2 @251
 	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@252" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ INT_VAR GW_shaman = 1 END	
+	END
 
 
 /* --------------------- *
