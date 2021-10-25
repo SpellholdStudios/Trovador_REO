@@ -162,6 +162,10 @@ COPY ~trovador/itm/dtblun01.itm~ ~override~
 COPY ~trovador/itm/dtbolt01.itm~ ~override~
 	SAY NAME2 @181
 	SAY DESC @183
+	PATCH_IF is_ee BEGIN
+		LPF ADD_ITEM_EFFECT INT_VAR type = 99 insert_point = 0 opcode = 324 duration = 1 target = 2 parameter2 = 15 probability1 = 90 STR_VAR resource = "dtbolt01" END  // RACE = ELF (15)
+		LPF ADD_ITEM_EFFECT INT_VAR type = 99 insert_point = 0 opcode = 324 duration = 1 target = 2 parameter2 = 19 probability1 = 30 STR_VAR resource = "dtbolt01" END  // RACE = HALF_ELF
+	END
 
 COPY ~trovador/itm/dtbolt02.itm~ ~override~
 	SAY NAME2 @184
@@ -249,6 +253,10 @@ COPY ~trovador/itm/bellpek.itm~ ~override~
 COPY ~trovador/itm/daglad.itm~ ~override~
 	SAY NAME2 @235
 	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@237" END
+	PATCH_IF is_ee BEGIN
+		LPF ADD_ITEM_EFFECT INT_VAR type = 99 insert_point = 0 opcode = 324 target = 2 parameter2 = 77 STR_VAR resource = "daglad" END  // STAT RESISTPOISON >= 100
+		LPF ADD_ITEM_EFFECT INT_VAR type = 99 insert_point = 0 opcode = 324 target = 2 parameter2 = 55 STR_VAR resource = "daglad" END  // undead or golem
+	END
 
 COPY ~trovador/itm/cimlech.itm~ ~override~
 	SAY NAME2 @238

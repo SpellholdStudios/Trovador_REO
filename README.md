@@ -123,6 +123,8 @@ Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os n
 - Added native BG2:EE and EET compatibility:
     - Added WeiDU's built-in `HANDLE_CHARSETS` function to convert string entries for EE games.
     - Removed items usability restriction flags in description for EE games with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function.
+    - Added special item usability restrictions (EE games) with `GW_ITEM_RESTRICT_USABILITY_EE` WeiDU function.
+    - Added immunity for opponents immune to poison or to sleep effects (op#324) in EE games.
 - Appended "*tooltip.2da*" whenever relevant.
 - Fixed items classes and kits restriction flags, removed useless abilities, fixed wrong effects values and icons...
 - Hardcoded items' general names and descriptions (good news for translators!).
@@ -138,9 +140,6 @@ Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os n
 - Uploaded mod to official Spellhold Studios GitHub mirror account.
 
 ## 
-
-    - Removed items usability restriction flags in description for EE games with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function.
-    - Added special item usability restrictions (EE games) with `GW_ITEM_RESTRICT_USABILITY_EE` WeiDU function.
 
 ##### Version 2.4a &nbsp;(November 28, 2009)
 
