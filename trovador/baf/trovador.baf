@@ -6,6 +6,8 @@ THEN
 		CreateCreature("trovad",[2201.1718],3)
 END
 
+// Note from the maintainers: seems to be useless...
+// -------------------------------------------------
 IF
 	PartyHasItem("Trov00")
 	Global("viajcuen","GLOBAL",0)
@@ -24,5 +26,3 @@ THEN
 		ActionOverride(Player5,DestroyItem("Trov00"))
 		ActionOverride(Player6,DestroyItem("Trov00"))
 END
-
-

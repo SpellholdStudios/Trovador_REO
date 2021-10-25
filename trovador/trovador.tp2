@@ -34,8 +34,8 @@ COPY ~trovador/cre/trovad.cre~ ~override~
 	SAY NAME1 @100
 	SAY NAME2 @100
 
-// TIENDAS NUEVAS DEL MOD
 COPY ~trovador/sto/trovad1.sto~ ~override~
+	SAY NAME1 @100
 
 
 /* --------------------------------- *
@@ -44,8 +44,9 @@ COPY ~trovador/sto/trovad1.sto~ ~override~
 
 COMPILE ~trovador/d/trovador.d~
 
-COPY ~trovador/bcs/trovador.bcs~ ~override~
-EXTEND_BOTTOM ~ar0700.bcs~ ~trovador/bcs/trovador.bcs~
+// Gwen fix: removed useless and redundant with next line
+//COPY ~trovador/bcs/trovador.bcs~ ~override~
+EXTEND_BOTTOM ~ar0700.bcs~ ~trovador/baf/trovador.baf~
 
 
 /* ------------------ *

@@ -39,7 +39,7 @@ Baldur's Gate Trilogy and EET<h3>
 ## 
 
 <div align="center">
-<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#details">Details</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a></br>
+<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a></br>
 </div>
 
 
@@ -48,20 +48,17 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## <a name="intro" id="intro"></a>Overview
 
-This mod adds Darron, a new merchant who sells special goods created especially for thieves. You can find him in the cellar of the Shadow Thieves guild.
+<img style="float: left;" src="trovador/readme/images/lrm65s.jpg"> This mod adds to the game a very special troubadour who will tell some never belonged stories, for a few gold pieces. You can find him in Waukeen Promenade. It also adds a shop with curious objects. Is is available in Spanish only.
 
-
-http://www.shsforums.net/files/file/853-trovador-reo-v24a/
-
-This mod adds to the game a very special troubadour who will tell for a few gold pieces some never belonged stories. It also adds a shop with curious objects. The mod is available in Spanish only.
 
 No solo Volo conoce historias dignas de ser contadas, hay muchos trovadores y bardos que recorren todo Faerûn arriesgando sus vidas para poder alegrar las tabernas que visitamos.
 
 Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os narrará unas historias nunca oidas e incluso los orígenes de ciertos personajes, como el misterioso Riojano, o Artemis Entreri.
 
-1) Added EE-compatibility (namely, updating item descriptions using your function and added a text transcoder, no other changes were required)
-
 4) Updated readme-file
+
+<div align="right"><a href="#top">Back to top</a></div>
+
 
 <hr>
 
@@ -73,31 +70,6 @@ Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os n
 
 
 ## <a name="installation" id="installation"></a>Installation
-
-<div align="right"><a href="#top">Back to top</a></div>
-
-
-<hr>
-
-
-## <a name="details" id="details"></a>Details
-
-
-<div align="right"><a href="#top">Back to top</a></div>
-
-
-<hr>
-
-
-## <a name="components" id="components"></a>Components
-
-<div align="right"><a href="#top">Back to top</a></div>
-
-
-<hr>
-
-
-## <a name="faq" id="faq"></a>Frequently Asked Questions
 
 <div align="right"><a href="#top">Back to top</a></div>
 
@@ -125,6 +97,7 @@ Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os n
     - Removed items usability restriction flags in description for EE games with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function.
     - Added special item usability restrictions (EE games) with `GW_ITEM_RESTRICT_USABILITY_EE` WeiDU function.
     - Added immunity for opponents immune to poison or to sleep effects (op#324) in EE games.
+    - Provided accurate sized NPC portraits for EE games.
 - Appended "*tooltip.2da*" whenever relevant.
 - Fixed items classes and kits restriction flags, removed useless abilities, fixed wrong effects values and icons...
 - Hardcoded items' general names and descriptions (good news for translators!).
@@ -132,7 +105,7 @@ Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os n
 - Split setup.tra files into separate thematic files for more comfortable readability.
 - Completed mod traification.
 - TODO then moved it into new :file_folder: "*readme*" folder.
-- Removed useless :file_folder: "*backup*" folder.
+- Removed useless files and :file_folder: "*backup*" folder.
 - Lower cased files.
 - TODO Included Linux and Mac OS versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
