@@ -1,12 +1,20 @@
-BACKUP ~trovador/backup~
+BACKUP ~weidu_external/backup/trovador~
 AUTHOR ~riojano2002@hotmail.com~
 VERSION ~v2.4~
-AUTO_TRA ~trovador/tra/%s~
+
+ALWAYS
+
+	INCLUDE ~trovador/lib/always.tph~
+
+END
+
+
+AUTO_TRA ~weidu_external/tra/trovador/%s~
 
 LANGUAGE ~Castellano (Clan REO)~
          ~spanish~
          ~trovador/tra/spanish/setup.tra~
-         ~trovador/tra/spanish/srings.tra~
+         ~weidu_external/lang/trovador/spanish/strings.tra~
 
 
 /* ============== *
@@ -19,7 +27,6 @@ SILENT
 /* ---------------------- *
  *  Installing creatures  *
  * ---------------------- */
-// CRIATURAS NUEVAS DEL MOD (+ REtraTOS, ANIMACIONES, ETC)
 
 COPY ~trovador/cre/lrm65l.bmp~ ~override~
 COPY ~trovador/cre/lrm65s.bmp~ ~override~
@@ -36,10 +43,8 @@ COPY ~trovador/sto/trovad1.sto~ ~override~
  *  Installing dialogues and script  *
  * --------------------------------- */
 
-// DIALOGOS NUEVOS DEL MOD
 COMPILE ~trovador/d/trovador.d~
 
-// SCRIPTS DEL MOD (BCS, BAF,...)
 COPY ~trovador/bcs/trovador.bcs~ ~override~
 EXTEND_BOTTOM ~ar0700.bcs~ ~trovador/bcs/trovador.bcs~
 

@@ -1,6 +1,11 @@
 
 @100  = ~Trovador~
 
+
+/* ======= *
+ *  Books  *
+ * ======= */
+
 @101  = ~El Duelo~
 @102  = ~EL DUELO, de Myther
 
@@ -401,6 +406,11 @@ Como Elmínster admite, "Cuando me es dado mirar Myth Drannor, mi corazón gime". 
 
 Hay un antiguo lema que dice: "Es nuestro deber vigilar, hasta que Myth Drannor sea orgullosa de nuevo". Aunque mucha gente de otros reinos sólo ha recordado la última frase, "Hasta que Myth Drannor sea orgullosa una vez más" dándole el significado de "Cuando los cerdos vuelen", dentro de la tradición popular de los Valles se incluye la certeza de que Myth Drannor volverá a reconstruirse y ser poderosa. Los Arpistas, los Caballeros de Myth Drannor y el propio Elmínster, entre otros, están trabajando duro para que Myth Drannor no sea de nuevo Poderosa... ¡como bastión del mal!~
 
+
+/* ======= *
+ *  Items  *
+ * ======= */
+
 /* DEPRECATED as of v2.0.0
 @110  = ~Katana~
 @112  = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
@@ -657,7 +667,6 @@ No permitido a:
  Señor de las bestias
  Archero
  Kensái~
- 
 
 /* DEPRECATED as of v2.0.0
 @143  = ~Anillo~ // = #6348
@@ -899,8 +908,9 @@ CARACTERÍSTICAS:
 Daño: 1D8 +1
 GAC0: bonificación +1
 Tipo de daño: Proyectil (perforante)
-Peso: 0
-Arma de proyectil: Ballesta~
+Arma de proyectil: Ballesta
+
+Peso: 0~
 
 /* DEPRECATED as of v2.0.0
 @188  = ~Cota de mallas~ // = #214
@@ -1320,8 +1330,8 @@ Aptitudes de combate:
 Daño: 1D4 +1
 GAC0: bonificación +3
 Tipo de daño: Proyectil
-Peso: 0
-Arma de proyectil: Honda~
+Arma de proyectil: Honda
+Peso: 0~
 
 /* DEPRECATED as of v2.0.0
 @234  = ~Daga~ // = #6343
@@ -1423,6 +1433,7 @@ No permitido a:
 CARACTERÍSTICAS:
 
 Peso: 0
+
 No permitido a:
  Asesino de magos~
 

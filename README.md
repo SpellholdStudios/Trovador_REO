@@ -118,7 +118,12 @@ Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os n
 
 ##### Version 2.5 &nbsp;(October, 2021)
 
-- Renamed *setup-trovador.tp2* -> *trovador.tp2* and moved it to mod top folder to support AL|EN's "Project Infinity".
+- Renamed *setup-trovador.tp2* -> *trovador.tp2*, and moved it to mod top folder to support AL|EN's "Project Infinity".
+- Added Immutability concept.
+- Added native BG2:EE and EET compatibility:
+    - Added WeiDU's built-in `HANDLE_CHARSETS` function to convert string entries for EE games.
+    - Removed items usability restriction flags in description for EE games with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function.
+- Appended "*tooltip.2da*" whenever relevant.
 - Fixed items classes and kits restriction flags, removed useless abilities, fixed wrong effects values and icons...
 - Hardcoded items' general names and descriptions (good news for translators!).
 - Fixed items descriptions (added missing weight, restriction flags values...).
@@ -128,7 +133,7 @@ Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os n
 - Removed useless :file_folder: "*backup*" folder.
 - Lower cased files.
 - TODO Included Linux and Mac OS versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
-- TODO Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
+- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
 - Updated WeiDU installer to v247.
 - Uploaded mod to official Spellhold Studios GitHub mirror account.
 
