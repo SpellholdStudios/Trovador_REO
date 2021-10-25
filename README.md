@@ -16,7 +16,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 **Original Author:** Riojano2002  
 **Mod Website:** <a href="http://www.shsforums.net/forum/234-miscellaneous-released-mods/">Spellhold Studios</a>  
-**Mod Forum:** <a href="TODO">Trovador REO</a><br>
+**Mod Forum:** <a href="http://www.shsforums.net/topic/61122-trovador-reo-updated-to-v250-ee-compatible/">Trovador REO</a><br>
 
 ## 
 
@@ -32,7 +32,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## 
 
-:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/trovador-readme-english.html)
+:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/trovador-readme-english.txt)
 
 :inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/853-trovador-reo)<br>
 
@@ -52,23 +52,23 @@ Baldur's Gate Trilogy and EET<h3>
 
 This mod adds a very special troubadour, who, for a few gold pieces, will tell you unheard stories and even the origins of certain characters, such as the mysterious Riojano, or Artemis Entreri.You can find him in Waukeen Promenade. It also adds a shop with curious objects. Is is available in Spanish only.
 
+<details><summary><ins>Original note from the author</ins></summary>
+<p>
 
-One night, reading some short stories from REO Clan members, the thought crossed my mind that, among all the mods that populated the net, there was none with the simple goal of telling stories to players. As I had recently learned to handle a bit of WeiDU, lo and behold, I embarked on the task... This is the result, gradually expanded with more ideas and experiments.
+###### One night, reading some short stories from REO Clan members, the thought crossed my mind that, among all the mods that populated the net, there was none with the simple goal of telling stories to players. As I had recently learned to handle a bit of WeiDU, lo and behold, I embarked on the task... This is the result, gradually expanded with more ideas and experiments.
 
-What is version A?
-------------------
-Because I'm a newbie at creating mods, I've included several ideas bit by bit... but various bugs in installations and the like have resulted in parts, objects, or even areas that worked perfectly for me, no longer doing so. However, I could dedicate little time to modding, so the corrections took me a long time... and meanwhile, I get more stories to include in the Troubadour's repertoire, stories that have to wait until I finish corrections...
+<ins>What is version A?</ins>
 
-This is why Version A was born: it is the basic Troubadour, only the character, the dialogue, the stories and the store, all of it already tested and working. Little by little, version A will include the improvements of the original mod that have been tested and work perfectly.
+###### Because I'm a newbie at creating mods, I've included several ideas bit by bit... but various bugs in installations and the like have resulted in parts, objects, or even areas that worked perfectly for me, no longer doing so. However, I could dedicate little time to modding, so the corrections took me a long time... and meanwhile, I get more stories to include in the Troubadour's repertoire, stories that have to wait until I finish corrections...
 
-What you will find in the mod
------------------------------
-- A character that, in exchange for a price, will tell you the most beautiful stories.
-- A series of stories about the alteregos of the members of the REO Clan (If you are a member of the REO Clan and you want me to tell your story, send it to me).
+###### This is why Version A was born: it is the basic Troubadour, only the character, the dialogue, the stories and the store, all of it already tested and working. Little by little, version A will include the improvements of the original mod that have been tested and work perfectly.
+
+<ins>What you will find in the mod</ins>
+- A character who, for a few gold pieces, will tell you the most beautiful stories.
+- A series of stories about the alter egos of the members of the REO Clan (If you are a member of the REO Clan and you want me to tell your story, send it to me).
 - A store with curious, powerful, useful, ironic and forgotten objects.
 
-Stories included (in order of inclusion)
-----------------------------------------
+<ins>Stories included (in order of inclusion)</ins>
 - "The Duel" (by Myther)
 - "The guardian stars" (by Clak)
 - "The Chase" (by Kimmuriel)
@@ -78,6 +78,8 @@ Stories included (in order of inclusion)
 - Myther's Personal History: "The Light of Hope".
 - Khaine's Personal History: "The Arrival".
 - Artemis' Personal History: "The Hunt and the Maiden".
+</p>
+</details><br>
 
 4) Updated readme-file
 
@@ -101,7 +103,7 @@ This mod is designed to work on the following Infinity Engine games:
 
 #### Other Mods Compatibility
 
-This is a WeiDU mod, and therefore should be compatible with all WeiDU mods, except total conversion mods. However, we cannot test every single one. If you encounter any bugs, please <a href="http://www.shsforums.net/forum/325-beyond-the-law">report them on the mod forum!</a>.
+This is a WeiDU mod, and therefore should be compatible with all WeiDU mods, except total conversion mods. However, we cannot test every single one. If you encounter any bugs, please <a href="http://www.shsforums.net/topic/61122-trovador-reo-updated-to-v250-ee-compatible/">report them on the mod forum!</a>.
 
 ## 
 
@@ -189,7 +191,6 @@ In addition to the methods above for removing individual components, you can com
 - Many thanks to Myther, Clak and Kimmuriel for their stories, without them this mod would never have existed, as well as to all the other story creators that I have been able to incorporate later.
 - Also, thanks to Weimer, TeamBG and other program creators for creating such useful tools, gateway to new worlds.
 
-
 ## 
 
 #### Programs/tools used in creation:
@@ -209,8 +210,7 @@ In addition to the methods above for removing individual components, you can com
 
 #### Copyrights Information
 
-###### Trovador REO is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Zyraen, based on material from the game Baldur's Gate and its expansion.
-###### All mod content is &copy;Zyraen.
+###### Trovador REO is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Riojano2002, based on material from the game Baldur's Gate and its expansion.
 ###### Baldur's Gate, Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.
 
 ###### This mod was created to be freely enjoyed by all Baldur's Gate players, and its content is free of rights. Please note that any and all redistribution and/or hosting of this mod is prohibited without permission from the authors.
@@ -226,10 +226,12 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="versions" id="versions"></a>Version History
 
+##### Version 2.5.0 &nbsp;(October 25, 2021)
 
-##### Version 2.5 &nbsp;(October, 2021)
-
+- Added *trovador.ini* metadata file (including dynamic install order syntax and global `LABELS`) to support AL|EN's "Project Infinity".
 - Renamed *setup-trovador.tp2* -> *trovador.tp2*, and moved it to mod top folder to support AL|EN's "Project Infinity".
+- Replaced `AUTHOR` keyword with `SUPPORT`.
+- Added `README` command.
 - Added Immutability concept.
 - Added component `DESIGNATED` number and "*trovador_reo*" `LABEL`.
 - Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
@@ -245,11 +247,11 @@ In addition to the methods above for removing individual components, you can com
 - Fixed items descriptions (added missing weight, restriction flags values...).
 - Split setup.tra files into separate thematic files for more comfortable readability.
 - Completed mod traification.
-- TODO then moved it into new :file_folder: "*readme*" folder.
+- Translated, updated, and renamed readme file to *trovador-readme-english.txt*, then moved it into new :file_folder: "*readme*" folder.
 - Removed useless files and :file_folder: "*backup*" folder.
 - Lower cased files.
 - TODO Included Linux and Mac OS versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
-- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
+- Added archive libiconv-1.9.2-1-src.7z with iconv license info.
 - Updated WeiDU installer to v247.
 - Uploaded mod to official Spellhold Studios GitHub mirror account.
 

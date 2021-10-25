@@ -1,6 +1,10 @@
-@0    = ~Trovador~
+@0    = ~Trovador REO~
 
 @10   = ~You must have ToB, BGT, BG2:EE or EET installed to install this mod.~
+/*@10   = ~Trovador REO solo es compatible con instalaciones BGII: ToB, BGT y BGII: EE.~
+@10   = ~¡ToB no esta instalado! Instale la expansion Throne of Bhaal antes de instalar Trovador REO.~
+@10   = ~Este mod no esta disponible para tu juego.~ */
+
 @11   = ~Installing items...~
 @12   = ~Installing creatures...~
 @13   = ~Compiling dialogues and scripts...~

@@ -1,5 +1,7 @@
 BACKUP ~weidu_external/backup/trovador~
-AUTHOR ~riojano2002@hotmail.com~
+//AUTHOR ~riojano2002@hotmail.com~
+SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/61122-trovador-reo-updated-to-v250-ee-compatible/~
+
 VERSION ~v2.4~
 
 ALWAYS
@@ -20,10 +22,9 @@ LANGUAGE ~Castellano (Clan REO)~
 /* ============== *
  *  Trovador REO  *
  * ============== */
-BEGIN @0                                           // ~Trovador~
+BEGIN @0                                           // ~Trovador REO~
 DESIGNATED 0 LABEL ~trovador_reo~
 REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @10  // ~You must have ToB, BGT, BG2:EE or EET installed to install this mod.~
-
 
 SILENT
 
