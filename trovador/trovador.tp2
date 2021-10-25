@@ -265,3 +265,26 @@ COPY ~trovador/itm/flepix1.itm~ ~override~
 COPY ~trovador/itm/flepix2.itm~ ~override~
 	SAY NAME2 @251
 	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@252" END
+
+
+/* --------------------- *
+ *  Installing tooltips  *
+ * --------------------- */
+
+// Read how many columns are in tooltip.2da file to append it accordingly.
+// -----------------------------------------------------------------------
+LAM ~GW_READ_COL_TOOLTIP~
+
+// Append tooltip.2da
+// ------------------
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~trov_001~ GW_tooltips = ~@113  12016 12017~ END // Paso Fantasma : Contorno borroso once per day - Invisibilidad twice per day
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~hachmin~  GW_tooltips = ~@136  18141~ END       // Hacha del Minotauro : Laberinto once per day
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~caparac~  GW_tooltips = ~12057~ END             // Capa arácnida : Telaraña once per day
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~gongap~   GW_tooltips = ~12131~ END             // Gong de Apertura : Apertura once per day
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~botdim~   GW_tooltips = ~12082~ END             // Saltabrechas : Puerta dimensional three times per day
+
+// Pure cosmetic, but so cool!
+// ---------------------------
+COPY_EXISTING ~tooltip.2da~ ~override~
+	PRETTY_PRINT_2DA
+BUT_ONLY
