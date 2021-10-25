@@ -80,9 +80,6 @@ This mod adds a very special troubadour, who, for a few gold pieces, will tell y
 - Artemis' Personal History: "The Hunt and the Maiden".
 </p>
 </details><br>
-
-4) Updated readme-file
-
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -103,7 +100,7 @@ This mod is designed to work on the following Infinity Engine games:
 
 #### Other Mods Compatibility
 
-This is a WeiDU mod, and therefore should be compatible with all WeiDU mods, except total conversion mods. However, we cannot test every single one. If you encounter any bugs, please <a href="http://www.shsforums.net/topic/61122-trovador-reo-updated-to-v250-ee-compatible/">report them on the mod forum!</a>.
+This is a WeiDU mod, and therefore should be compatible with all WeiDU mods, except total conversion mods. However, we cannot test every single one. If you encounter any bugs, please <a href="http://www.shsforums.net/topic/61122-trovador-reo-updated-to-v250-ee-compatible/">report them on the mod forum!</a>
 
 ## 
 
@@ -235,7 +232,7 @@ In addition to the methods above for removing individual components, you can com
 - Added Immutability concept.
 - Added component `DESIGNATED` number and "*trovador_reo*" `LABEL`.
 - Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
-- Added native BG2:EE and EET compatibility:
+- Added native BG2:EE and EET compatibility (thanks Austin and Gwendoyne):
     - Added WeiDU's built-in `HANDLE_CHARSETS` function to convert string entries for EE games.
     - Removed items usability restriction flags in description for EE games with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function.
     - Added special item usability restrictions (EE games) with `GW_ITEM_RESTRICT_USABILITY_EE` WeiDU function.
@@ -250,7 +247,7 @@ In addition to the methods above for removing individual components, you can com
 - Translated, updated, and renamed readme file to *trovador-readme-english.txt*, then moved it into new :file_folder: "*readme*" folder.
 - Removed useless files and :file_folder: "*backup*" folder.
 - Lower cased files.
-- TODO Included Linux and Mac OS versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
+- Included Linux and Mac OS versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Added archive libiconv-1.9.2-1-src.7z with iconv license info.
 - Updated WeiDU installer to v247.
 - Uploaded mod to official Spellhold Studios GitHub mirror account.

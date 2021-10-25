@@ -4,6 +4,8 @@ SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/61122-trovador-reo-
 
 VERSION ~v2.4~
 
+README ~trovador/readme/trovador-readme-english.txt~
+
 ALWAYS
 
 	INCLUDE ~trovador/lib/always.tph~
