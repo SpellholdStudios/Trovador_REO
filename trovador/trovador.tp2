@@ -6,9 +6,13 @@ AUTO_TRA ~trovador/tra/%s~
 LANGUAGE ~Castellano (Clan REO)~
          ~spanish~
          ~trovador/tra/spanish/setup.tra~
+         ~trovador/tra/spanish/srings.tra~
 
 
-BEGIN @0
+/* ============== *
+ *  Trovador REO  *
+ * ============== */
+BEGIN @0  // ~Trovador~
 
 SILENT
 
@@ -43,7 +47,6 @@ EXTEND_BOTTOM ~ar0700.bcs~ ~trovador/bcs/trovador.bcs~
 /* ------------------ *
  *  Installing Items  *
  * ------------------ */
-//OBJETOS NUEVOS DEL MOD
 
 COPY ~trovador/itm/trov01.itm~ ~override~
 	SAY NAME1 @101
@@ -71,19 +74,19 @@ COPY ~trovador/itm/trov04.itm~ ~override~
 
 COPY ~trovador/itm/trov_001.itm~ ~override~
 	SAY NAME2 @111
-	SAY DESC @113
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@113" END
 
 COPY ~trovador/itm/trov_002.itm~ ~override~
 	SAY NAME2 @115
-	SAY DESC @117
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@117" END
 
 COPY ~trovador/itm/trov_003.itm~ ~override~
 	SAY NAME2 @119
-	SAY DESC @121
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@121" END
 
 COPY ~trovador/itm/trov_004.itm~ ~override~
 	SAY NAME2 @122
-	SAY DESC @123
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@123" END
 
 COPY ~trovador/itm/dmplan.itm~ ~override~
 	SAY NAME1 @124
@@ -96,28 +99,28 @@ COPY ~trovador/itm/manav.itm~ ~override~
 
 COPY ~trovador/itm/armdor.itm~ ~override~
 	SAY NAME2 @132
-	SAY DESC @134
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@134" END
 
 COPY ~trovador/itm/hachmin.itm~ ~override~
 	SAY NAME2 @136
-	SAY DESC @138
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@138" END
 
 COPY ~trovador/itm/armpie.itm~ ~override~
 	SAY NAME2 @140
-	SAY DESC @142
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@142" END
 
 COPY ~trovador/itm/anmilp.itm~ ~override~
 	SAY NAME2 @144
-	SAY DESC @146
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@146" END
 
 COPY ~trovador/itm/ultgol.itm~ ~override~
 	SAY NAME2 @148
-	SAY DESC @150
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@150" END
 
 COPY ~trovador/itm/caparac.itm~ ~override~
 	SAY NAME1 @151
 	SAY NAME2 @152
-	SAY DESC @154
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@154" END
 
 COPY ~trovador/itm/gongap.itm~ ~override~
 	SAY NAME1 @155
@@ -141,15 +144,15 @@ COPY ~trovador/itm/pocher2.itm~ ~override~
 
 COPY ~trovador/itm/cintena.itm~ ~override~
 	SAY NAME2 @169
-	SAY DESC @171
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@171" END
 
 COPY ~trovador/itm/botdim.itm~ ~override~
 	SAY NAME2 @173
 	SAY DESC @175
 
 COPY ~trovador/itm/dtblun01.itm~ ~override~
-SAY UNIDENTIFIED_DESC @78
-	SAY DESC @179
+	SAY NAME2 @177
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@179" END
 
 COPY ~trovador/itm/dtbolt01.itm~ ~override~
 	SAY NAME2 @181
@@ -165,43 +168,43 @@ COPY ~trovador/itm/dtbolt03.itm~ ~override~
 
 COPY ~trovador/itm/dtchan01.itm~ ~override~
 	SAY NAME2 @189
-	SAY DESC @191
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@191" END
 
 COPY ~trovador/itm/dtchan02.itm~ ~override~
 	SAY NAME2 @192
-	SAY DESC @193
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@193" END
 
 COPY ~trovador/itm/dtclck01.itm~ ~override~
 	SAY NAME2 @195
-	SAY DESC @197
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@197" END
 
 COPY ~trovador/itm/dthalb01.itm~ ~override~
 	SAY NAME2 @198
-	SAY DESC @200
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@200" END
 
 COPY ~trovador/itm/dtplat01.itm~ ~override~
 	SAY NAME2 @202
-	SAY DESC @204
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@204" END
 
 COPY ~trovador/itm/dtshld01.itm~ ~override~
 	SAY NAME2 @206
-	SAY DESC @208
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@208" END
 
 COPY ~trovador/itm/dtsper01.itm~ ~override~
 	SAY NAME2 @210
-	SAY DESC @212
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@212" END
 
 COPY ~trovador/itm/dtsw1h01.itm~ ~override~
 	SAY NAME2 @214
-	SAY DESC @216
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@216" END
 
 COPY ~trovador/itm/dtsw1h02.itm~ ~override~
 	SAY NAME2 @217
-	SAY DESC @219
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@219" END
 
 COPY ~trovador/itm/dtxbow01.itm~ ~override~
 	SAY NAME2 @221
-	SAY DESC @223
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@223" END
 
 COPY ~trovador/itm/protmad.itm~ ~override~
 	SAY NAME1 @224
@@ -237,28 +240,28 @@ COPY ~trovador/itm/bellpek.itm~ ~override~
 
 COPY ~trovador/itm/daglad.itm~ ~override~
 	SAY NAME2 @235
-	SAY DESC @237
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@237" END
 
 COPY ~trovador/itm/cimlech.itm~ ~override~
 	SAY NAME2 @238
-	SAY DESC @240
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@240" END
 
 COPY ~trovador/itm/ancal.itm~ ~override~
 	SAY NAME2 @241
-	SAY DESC @242
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@242" END
 
 COPY ~trovador/itm/pocgas.itm~ ~override~
 	SAY NAME2 @243
-	SAY DESC @244
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@244" END
 
 COPY ~trovador/itm/poccla.itm~ ~override~
 	SAY NAME2 @245
-	SAY DESC @246
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@246" END
 
 COPY ~trovador/itm/flepix1.itm~ ~override~
 	SAY NAME2 @248
-	SAY DESC @250
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@250" END
 
 COPY ~trovador/itm/flepix2.itm~ ~override~
 	SAY NAME2 @251
-	SAY DESC @252
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@252" END
