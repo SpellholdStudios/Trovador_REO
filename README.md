@@ -2,7 +2,7 @@
 ![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/Trovador_REO?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/Trovador_REO?color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=language&message=Spanish&color=limegreen)
 
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BGII%20%7C%20BGT%20%7C%20BG2%3AEE%20%7C%20EET&color=dodgerblue)
 
@@ -60,8 +60,6 @@ No solo Volo conoce historias dignas de ser contadas, hay muchos trovadores y ba
 Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os narrará unas historias nunca oidas e incluso los orígenes de ciertos personajes, como el misterioso Riojano, o Artemis Entreri.
 
 1) Added EE-compatibility (namely, updating item descriptions using your function and added a text transcoder, no other changes were required)
-
-3) Now the texts are correctly transferred to the tra-files (previously the tra-file was created, but the texts themselves remained in the d-files, and did not refer to the tra)
 
 4) Updated readme-file
 
@@ -121,7 +119,11 @@ Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os n
 ##### Version 2.5 &nbsp;(October, 2021)
 
 - Renamed *setup-trovador.tp2* -> *trovador.tp2* and moved it to mod top folder to support AL|EN's "Project Infinity".
-- TODO Completed mod traification.
+- Fixed items classes and kits restriction flags, removed useless abilities, fixed wrong effects values and icons...
+- Hardcoded items' general names and descriptions (good news for translators!).
+- Fixed items descriptions (added missing weight, restriction flags values...).
+- Split setup.tra files into separate thematic files for more comfortable readability.
+- Completed mod traification.
 - TODO then moved it into new :file_folder: "*readme*" folder.
 - Removed useless :file_folder: "*backup*" folder.
 - Lower cased files.
@@ -131,6 +133,9 @@ Este mod añade a un trovador muy especial, que por unas pocas piezas de oro os n
 - Uploaded mod to official Spellhold Studios GitHub mirror account.
 
 ## 
+
+    - Removed items usability restriction flags in description for EE games with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function.
+    - Added special item usability restrictions (EE games) with `GW_ITEM_RESTRICT_USABILITY_EE` WeiDU function.
 
 ##### Version 2.4a &nbsp;(November 28, 2009)
 

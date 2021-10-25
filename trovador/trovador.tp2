@@ -1,372 +1,264 @@
-BACKUP ~TROVADOR/backup~
+BACKUP ~trovador/backup~
 AUTHOR ~riojano2002@hotmail.com~
 VERSION ~v2.4~
-AUTO_TRA ~TROVADOR/TRA/%s~
+AUTO_TRA ~trovador/tra/%s~
 
-LANGUAGE "Castellano (Clan REO)" "spanish"
-		 ~trovador/TRA/spanish/setup.tra~
+LANGUAGE ~Castellano (Clan REO)~
+         ~spanish~
+         ~trovador/tra/spanish/setup.tra~
 
-		 
-		 
+
 BEGIN @0
 
+SILENT
 
+/* ---------------------- *
+ *  Installing creatures  *
+ * ---------------------- */
+// CRIATURAS NUEVAS DEL MOD (+ REtraTOS, ANIMACIONES, ETC)
 
+COPY ~trovador/cre/lrm65l.bmp~ ~override~
+COPY ~trovador/cre/lrm65s.bmp~ ~override~
 
-// CRIATURAS NUEVAS DEL MOD (+ RETRATOS, ANIMACIONES, ETC)
-
-COPY ~TROVADOR\CRE\lrM65L.bmp~ ~portraits\lrM65L.bmp~
-COPY ~TROVADOR\CRE\lrM65S.bmp~ ~portraits\lrM65S.bmp~
-
-COPY ~TROVADOR\CRE\TROVAD.cre~ ~override\TROVAD.cre~
-   SAY NAME1 @0
-   SAY NAME2 @0
-
-
-
-
-
-// DIALOGOS NUEVOS DEL MOD
-
-COMPILE ~TROVADOR\d\TROVADOR.d~
-
-
-
-
+COPY ~trovador/cre/trovad.cre~ ~override~
+	SAY NAME1 @100
+	SAY NAME2 @100
 
 // TIENDAS NUEVAS DEL MOD
-
-COPY ~TROVADOR\STO\TROVAD1.sto~ ~override\TROVAD1.sto~
-
+COPY ~trovador/sto/trovad1.sto~ ~override~
 
 
+/* --------------------------------- *
+ *  Installing dialogues and script  *
+ * --------------------------------- */
 
-
-
-
-
+// DIALOGOS NUEVOS DEL MOD
+COMPILE ~trovador/d/trovador.d~
 
 // SCRIPTS DEL MOD (BCS, BAF,...)
+COPY ~trovador/bcs/trovador.bcs~ ~override~
+EXTEND_BOTTOM ~ar0700.bcs~ ~trovador/bcs/trovador.bcs~
 
 
-COPY ~TROVADOR\bcs\trovador.bcs~ ~override\trovador.bcs~
-EXTEND_BOTTOM ~ar0700.bcs~ ~TROVADOR\bcs\trovador.bcs~
-
-
-
-
-
-
-
+/* ------------------ *
+ *  Installing Items  *
+ * ------------------ */
 //OBJETOS NUEVOS DEL MOD
 
-COPY ~TROVADOR/ITM/TROV01.ITM~ ~override\TROV01.itm~
-SAY NAME1 @1
-SAY NAME2 @1
-SAY UNIDENTIFIED_DESC @2
+COPY ~trovador/itm/trov01.itm~ ~override~
+	SAY NAME1 @101
+	SAY NAME2 @101
+	SAY UNIDENTIFIED_DESC @102
+	SAY DESC @102
 
-SAY DESC @2
+COPY ~trovador/itm/trov02.itm~ ~override~
+	SAY NAME1 @103
+	SAY NAME2 @103
+	SAY UNIDENTIFIED_DESC @104
+	SAY DESC @104
 
-COPY ~TROVADOR/ITM/TROV02.ITM~ ~override\TROV02.itm~
-SAY NAME1 @3
-SAY NAME2 @3
-SAY UNIDENTIFIED_DESC @4
+COPY ~trovador/itm/trov03.itm~ ~override~
+	SAY NAME1 @105
+	SAY NAME2 @105
+	SAY UNIDENTIFIED_DESC @106
+	SAY DESC @107
 
-SAY DESC @4
+COPY ~trovador/itm/trov04.itm~ ~override~
+	SAY NAME1 @108
+	SAY NAME2 @108
+	SAY UNIDENTIFIED_DESC @109
+	SAY DESC @109
 
-COPY ~TROVADOR/ITM/TROV03.ITM~ ~override\TROV03.itm~
-SAY NAME1 @5
-SAY NAME2 @5
-SAY UNIDENTIFIED_DESC @6
+COPY ~trovador/itm/trov_001.itm~ ~override~
+	SAY NAME2 @111
+	SAY DESC @113
 
-SAY DESC @7
+COPY ~trovador/itm/trov_002.itm~ ~override~
+	SAY NAME2 @115
+	SAY DESC @117
 
+COPY ~trovador/itm/trov_003.itm~ ~override~
+	SAY NAME2 @119
+	SAY DESC @121
 
-COPY ~TROVADOR/ITM/TROV04.ITM~ ~override\TROV04.itm~
-SAY NAME1 @8
-SAY NAME2 @8
-SAY UNIDENTIFIED_DESC @9
-SAY DESC @9
+COPY ~trovador/itm/trov_004.itm~ ~override~
+	SAY NAME2 @122
+	SAY DESC @123
 
-COPY ~TROVADOR/ITM/TROV_001.ITM~ ~override\TROV_001.itm~
-SAY NAME1 @10
-SAY NAME2 @11
-SAY UNIDENTIFIED_DESC @12
+COPY ~trovador/itm/dmplan.itm~ ~override~
+	SAY NAME1 @124
+	SAY NAME2 @124
+	SAY DESC @126
 
-SAY DESC @13
+COPY ~trovador/itm/manav.itm~ ~override~
+	SAY NAME2 @128
+	SAY DESC @130
 
-COPY ~TROVADOR/ITM/TROV_002.ITM~ ~override\TROV_002.itm~
-SAY NAME1 @14
-SAY NAME2 @15
-SAY UNIDENTIFIED_DESC @16
+COPY ~trovador/itm/armdor.itm~ ~override~
+	SAY NAME2 @132
+	SAY DESC @134
 
-SAY DESC @17
+COPY ~trovador/itm/hachmin.itm~ ~override~
+	SAY NAME2 @136
+	SAY DESC @138
 
-COPY ~TROVADOR/ITM/TROV_003.ITM~ ~override\TROV_003.itm~
-SAY NAME1 @18
-SAY NAME2 @19
-SAY UNIDENTIFIED_DESC @20
-SAY DESC @21
+COPY ~trovador/itm/armpie.itm~ ~override~
+	SAY NAME2 @140
+	SAY DESC @142
 
-COPY ~TROVADOR/ITM/TROV_004.ITM~ ~override\TROV_004.itm~
-SAY NAME1 @18
-SAY NAME2 @22
-SAY UNIDENTIFIED_DESC @20
-SAY DESC @23
+COPY ~trovador/itm/anmilp.itm~ ~override~
+	SAY NAME2 @144
+	SAY DESC @146
 
-COPY ~TROVADOR/ITM/DMPlan.ITM~ ~override\DMPlan.itm~
-SAY NAME1 @24
-SAY NAME2 @24
-SAY UNIDENTIFIED_DESC ~~
-SAY DESC @26
+COPY ~trovador/itm/ultgol.itm~ ~override~
+	SAY NAME2 @148
+	SAY DESC @150
 
-COPY ~TROVADOR/ITM/MANAV.ITM~ ~override\MANAV.itm~
-SAY NAME1 @27
-SAY NAME2 @28
-SAY UNIDENTIFIED_DESC @29
-SAY DESC @30
+COPY ~trovador/itm/caparac.itm~ ~override~
+	SAY NAME1 @151
+	SAY NAME2 @152
+	SAY DESC @154
 
-COPY ~TROVADOR/ITM/ARMDOR.ITM~ ~override\ARMDOR.itm~
-SAY NAME1 @31
-SAY NAME2 @32
-SAY UNIDENTIFIED_DESC @33
-SAY DESC @34
+COPY ~trovador/itm/gongap.itm~ ~override~
+	SAY NAME1 @155
+	SAY NAME2 @156
+	SAY UNIDENTIFIED_DESC @157
+	SAY DESC @158
 
-COPY ~TROVADOR/ITM/HACHMIN.ITM~ ~override\HACHMIN.itm~
-SAY NAME1 @35
-SAY NAME2 @36
-SAY UNIDENTIFIED_DESC @37
-SAY DESC @38
+COPY ~trovador/itm/bocal.itm~ ~override~
+	SAY NAME1 @159
+	SAY NAME2 @160
+	SAY UNIDENTIFIED_DESC @161
+	SAY DESC @162
 
-COPY ~TROVADOR/ITM/ARMPIE.ITM~ ~override\ARMPIE.itm~
-SAY NAME1 @39
-SAY NAME2 @40
-SAY UNIDENTIFIED_DESC @41
-SAY DESC @42
+COPY ~trovador/itm/pocher1.itm~ ~override~
+	SAY NAME2 @163
+	SAY DESC @165
 
-COPY ~TROVADOR/ITM/ANMILP.ITM~ ~override\ANMILP.itm~
-SAY NAME1 @43
-SAY NAME2 @44
-SAY UNIDENTIFIED_DESC @45
-SAY DESC @46
+COPY ~trovador/itm/pocher2.itm~ ~override~
+	SAY NAME2 @166
+	SAY DESC @167
 
-COPY ~TROVADOR/ITM/ULTGOL.ITM~ ~override\ULTGOL.itm~
-SAY NAME1 @47
-SAY NAME2 @48
-SAY UNIDENTIFIED_DESC @49
-SAY DESC @50
+COPY ~trovador/itm/cintena.itm~ ~override~
+	SAY NAME2 @169
+	SAY DESC @171
 
-COPY ~TROVADOR/ITM/CAPARAC.ITM~ ~override\CAPARAC.itm~
-SAY NAME1 @51
-SAY NAME2 @52
-SAY UNIDENTIFIED_DESC @53
-SAY DESC @54
+COPY ~trovador/itm/botdim.itm~ ~override~
+	SAY NAME2 @173
+	SAY DESC @175
 
-COPY ~TROVADOR/ITM/GONGAP.ITM~ ~override\GONGAP.itm~
-SAY NAME1 @55
-SAY NAME2 @56
-SAY UNIDENTIFIED_DESC @57
-SAY DESC @58
-
-COPY ~TROVADOR/ITM/BOCAL.ITM~ ~override\BOCAL.itm~
-SAY NAME1 @59
-SAY NAME2 @60
-SAY UNIDENTIFIED_DESC @61
-SAY DESC @62
-
-COPY ~TROVADOR/ITM/POCHER1.ITM~ ~override\POCHER1.itm~
-SAY NAME1 @18
-SAY NAME2 @63
-SAY UNIDENTIFIED_DESC @64
-SAY DESC @65
-
-COPY ~TROVADOR/ITM/POCHER2.ITM~ ~override\POCHER2.itm~
-SAY NAME1 @18
-SAY NAME2 @66
-SAY UNIDENTIFIED_DESC @64
-SAY DESC @67
-
-COPY ~TROVADOR/ITM/CINTENA.ITM~ ~override\CINTENA.itm~
-SAY NAME1 @68
-SAY NAME2 @69
-SAY UNIDENTIFIED_DESC @70
-SAY DESC @71
-
-COPY ~TROVADOR/ITM/BOTDIM.ITM~ ~override\BOTDIM.itm~
-SAY NAME1 @72
-SAY NAME2 @73
-SAY UNIDENTIFIED_DESC @74
-SAY DESC @75
-
-COPY ~TROVADOR/ITM/DTBLUN01.ITM~ ~override\DTBLUN01.itm~
-SAY NAME1 @76
-SAY NAME2 @77
+COPY ~trovador/itm/dtblun01.itm~ ~override~
 SAY UNIDENTIFIED_DESC @78
-SAY DESC @79
+	SAY DESC @179
 
-COPY ~TROVADOR/ITM/DTBOLT01.ITM~ ~override\DTBOLT01.itm~
-SAY NAME1 @80
-SAY NAME2 @81
-SAY UNIDENTIFIED_DESC @82
-SAY DESC @83
+COPY ~trovador/itm/dtbolt01.itm~ ~override~
+	SAY NAME2 @181
+	SAY DESC @183
 
-COPY ~TROVADOR/ITM/DTBOLT02.ITM~ ~override\DTBOLT02.itm~
-SAY NAME1 @80
-SAY NAME2 @84
-SAY UNIDENTIFIED_DESC @82
-SAY DESC @85
+COPY ~trovador/itm/dtbolt02.itm~ ~override~
+	SAY NAME2 @184
+	SAY DESC @185
 
-COPY ~TROVADOR/ITM/DTBOLT03.ITM~ ~override\DTBOLT03.itm~
-SAY NAME1 @80
-SAY NAME2 @86
-SAY UNIDENTIFIED_DESC @82
-SAY DESC @87
+COPY ~trovador/itm/dtbolt03.itm~ ~override~
+	SAY NAME2 @186
+	SAY DESC @187
 
-COPY ~TROVADOR/ITM/DTCHAN01.ITM~ ~override\DTCHAN01.itm~
-SAY NAME1 @88
-SAY NAME2 @89
-SAY UNIDENTIFIED_DESC @90
-SAY DESC @91
+COPY ~trovador/itm/dtchan01.itm~ ~override~
+	SAY NAME2 @189
+	SAY DESC @191
 
-COPY ~TROVADOR/ITM/DTCHAN02.ITM~ ~override\DTCHAN02.itm~
-SAY NAME1 @88
-SAY NAME2 @92
-SAY UNIDENTIFIED_DESC @90
-SAY DESC @93
+COPY ~trovador/itm/dtchan02.itm~ ~override~
+	SAY NAME2 @192
+	SAY DESC @193
 
-COPY ~TROVADOR/ITM/DTCLCK01.ITM~ ~override\DTCLCK01.itm~
-SAY NAME1 @94
-SAY NAME2 @95
-SAY UNIDENTIFIED_DESC @96
-SAY DESC @97
+COPY ~trovador/itm/dtclck01.itm~ ~override~
+	SAY NAME2 @195
+	SAY DESC @197
 
-COPY ~TROVADOR/ITM/DTHALB01.ITM~ ~override\DTHALB01.itm~
-SAY NAME1 @35
-SAY NAME2 @98
-SAY UNIDENTIFIED_DESC @99
-SAY DESC @100
+COPY ~trovador/itm/dthalb01.itm~ ~override~
+	SAY NAME2 @198
+	SAY DESC @200
 
-COPY ~TROVADOR/ITM/DTPLAT01.ITM~ ~override\DTPLAT01.itm~
-SAY NAME1 @101
-SAY NAME2 @102
-SAY UNIDENTIFIED_DESC @103
-SAY DESC @104
+COPY ~trovador/itm/dtplat01.itm~ ~override~
+	SAY NAME2 @202
+	SAY DESC @204
 
-COPY ~TROVADOR/ITM/DTSHLD01.ITM~ ~override\DTSHLD01.itm~
-SAY NAME1 @105
-SAY NAME2 @106
-SAY UNIDENTIFIED_DESC @107
-SAY DESC @108
+COPY ~trovador/itm/dtshld01.itm~ ~override~
+	SAY NAME2 @206
+	SAY DESC @208
 
-COPY ~TROVADOR/ITM/DTSPER01.ITM~ ~override\DTSPER01.itm~
-SAY NAME1 @109
-SAY NAME2 @110
-SAY UNIDENTIFIED_DESC @111
-SAY DESC @112
+COPY ~trovador/itm/dtsper01.itm~ ~override~
+	SAY NAME2 @210
+	SAY DESC @212
 
-COPY ~TROVADOR/ITM/DTSW1H01.ITM~ ~override\DTSW1H01.itm~
-SAY NAME1 @113
-SAY NAME2 @114
-SAY UNIDENTIFIED_DESC @115
-SAY DESC @116
+COPY ~trovador/itm/dtsw1h01.itm~ ~override~
+	SAY NAME2 @214
+	SAY DESC @216
 
-COPY ~TROVADOR/ITM/DTSW1H02.ITM~ ~override\DTSW1H02.itm~
-SAY NAME1 @47
-SAY NAME2 @117
-SAY UNIDENTIFIED_DESC @118
-SAY DESC @119
+COPY ~trovador/itm/dtsw1h02.itm~ ~override~
+	SAY NAME2 @217
+	SAY DESC @219
 
-COPY ~TROVADOR/ITM/DTXBOW01.ITM~ ~override\DTXBOW01.itm~
-SAY NAME1 @120
-SAY NAME2 @121
-SAY UNIDENTIFIED_DESC @122
-SAY DESC @123
+COPY ~trovador/itm/dtxbow01.itm~ ~override~
+	SAY NAME2 @221
+	SAY DESC @223
 
-COPY ~Trovador/ITM/protmad.ITM~ ~override\protmad.itm~
-SAY NAME1 @124
-SAY NAME2 @124
-SAY UNIDENTIFIED_DESC @125
-SAY DESC @125
+COPY ~trovador/itm/protmad.itm~ ~override~
+	SAY NAME1 @224
+	SAY NAME2 @224
+	SAY UNIDENTIFIED_DESC @225
+	SAY DESC @225
+COPY ~trovador/spl/protmad.spl~ ~override~
+	SAY NAME1 @224
+	SAY UNIDENTIFIED_DESC @225
 
-COPY ~Trovador/ITM/prothier.ITM~ ~override\prothier.itm~
-SAY NAME1 @126
-SAY NAME2 @126
-SAY UNIDENTIFIED_DESC @127
-SAY DESC @127
+COPY ~trovador/itm/prothier.itm~ ~override~
+	SAY NAME1 @226
+	SAY NAME2 @226
+	SAY UNIDENTIFIED_DESC @227
+	SAY DESC @227
+COPY ~trovador/spl/prothier.spl~ ~override~
+	SAY NAME1 @226
+	SAY UNIDENTIFIED_DESC @227
 
-COPY ~Trovador/ITM/hechgig.ITM~ ~override\hechgig.itm~
-SAY NAME1 @128
-SAY NAME2 @128
-SAY UNIDENTIFIED_DESC @129
-SAY DESC @129
+COPY ~trovador/itm/hechgig.itm~ ~override~
+	SAY NAME1 @228
+	SAY NAME2 @228
+	SAY UNIDENTIFIED_DESC @229
+	SAY DESC @229
+COPY ~trovador/spl/hechgig.spl~ ~override~
+	SAY NAME1 @228
+	SAY UNIDENTIFIED_DESC @229
 
-COPY ~Trovador/ITM/Bellpek.ITM~ ~override\Bellpek.itm~
-SAY NAME1 @130
-SAY NAME2 @131
-SAY UNIDENTIFIED_DESC @132
-SAY DESC @133
+COPY ~trovador/itm/bellpek.itm~ ~override~
+	SAY NAME2 @231
+	SAY UNIDENTIFIED_DESC @232
+	SAY DESC @233
 
-COPY ~Trovador/ITM/DAGLAD.ITM~ ~override\DAGLAD.itm~
-SAY NAME1 @134
-SAY NAME2 @135
-SAY UNIDENTIFIED_DESC @136
-SAY DESC @137
+COPY ~trovador/itm/daglad.itm~ ~override~
+	SAY NAME2 @235
+	SAY DESC @237
 
-COPY ~Trovador/ITM/CIMLECH.ITM~ ~override\CIMLECH.itm~
-SAY NAME1 @113
-SAY NAME2 @138
-SAY UNIDENTIFIED_DESC @139
-SAY DESC @140
+COPY ~trovador/itm/cimlech.itm~ ~override~
+	SAY NAME2 @238
+	SAY DESC @240
 
-COPY ~Trovador/ITM/ANCAL.ITM~ ~override\ANCAL.itm~
-SAY NAME1 @43
-SAY NAME2 @141
-SAY UNIDENTIFIED_DESC @45
-SAY DESC @142
+COPY ~trovador/itm/ancal.itm~ ~override~
+	SAY NAME2 @241
+	SAY DESC @242
 
-COPY ~Trovador/ITM/POCGAS.ITM~ ~override\POCGAS.itm~
-SAY NAME1 @18
-SAY NAME2 @143
-SAY UNIDENTIFIED_DESC @64
-SAY DESC @144
+COPY ~trovador/itm/pocgas.itm~ ~override~
+	SAY NAME2 @243
+	SAY DESC @244
 
-COPY ~Trovador/ITM/POCCLA.ITM~ ~override\POCCLA.itm~
-SAY NAME1 @18
-SAY NAME2 @145
-SAY UNIDENTIFIED_DESC @64
-SAY DESC @146
+COPY ~trovador/itm/poccla.itm~ ~override~
+	SAY NAME2 @245
+	SAY DESC @246
 
-COPY ~Trovador/ITM/FLEPIX1.ITM~ ~override\FLEPIX1.itm~
-SAY NAME1 @147
-SAY NAME2 @148
-SAY UNIDENTIFIED_DESC @149
-SAY DESC @150
+COPY ~trovador/itm/flepix1.itm~ ~override~
+	SAY NAME2 @248
+	SAY DESC @250
 
-COPY ~Trovador/ITM/FLEPIX2.ITM~ ~override\FLEPIX2.itm~
-SAY NAME1 @147
-SAY NAME2 @151
-SAY UNIDENTIFIED_DESC @149
-SAY DESC @152
-
-
-
-
-
-
-
-
-// HECHIZOS NUEVOS DEL MOD
-
-COPY ~Trovador/Spl/protmad.spl~ ~override\protmad.spl~    
-SAY NAME1 @124
-SAY UNIDENTIFIED_DESC @125
-
-COPY ~Trovador/Spl/prothier.spl~ ~override\prothier.spl~    
-SAY NAME1 @126
-SAY UNIDENTIFIED_DESC @127
-
-COPY ~Trovador/Spl/hechgig.spl~ ~override\hechgig.spl~    
-SAY NAME1 @128
-SAY UNIDENTIFIED_DESC @129
-
-
+COPY ~trovador/itm/flepix2.itm~ ~override~
+	SAY NAME2 @251
+	SAY DESC @252
