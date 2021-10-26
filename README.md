@@ -232,7 +232,7 @@ In addition to the methods above for removing individual components, you can com
 - Added Immutability concept.
 - Added component `DESIGNATED` number and "*trovador_reo*" `LABEL`.
 - Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
-- Added native BG2:EE and EET compatibility (thanks Austin and Gwendoyne):
+- Added native BG2:EE and EET compatibility (thanks Austin and Gwendolyne):
     - Added WeiDU's built-in `HANDLE_CHARSETS` function to convert string entries for EE games.
     - Removed items usability restriction flags in description for EE games with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function.
     - Added special item usability restrictions (EE games) with `GW_ITEM_RESTRICT_USABILITY_EE` WeiDU function.
