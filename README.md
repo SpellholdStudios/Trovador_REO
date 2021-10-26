@@ -50,7 +50,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 <img style="float: left;" src="trovador/readme/images/lrm65s.jpg"> Volo is not the only one who knows stories worth telling. There are many troubadours and bards who travel all over Faerûn risking their lives in order to brighten up the taverns we visit.
 
-This mod adds a very special troubadour, who, for a few gold pieces, will tell you unheard stories and even the origins of certain characters, such as the mysterious Riojano, or Artemis Entreri.You can find him in Waukeen Promenade. It also adds a shop with curious objects. Is is available in Spanish only.
+This mod adds a very special troubadour, who, for a few gold pieces, will tell you unheard stories and even the origins of certain characters, such as the mysterious Riojano, or Artemis Entreri.You can find him in Waukeen Promenade. It also adds a shop with curious objects. It is available in Spanish only.
 
 <details><summary><ins>Original note from the author</ins></summary>
 <p>
