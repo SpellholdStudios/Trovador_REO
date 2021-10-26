@@ -2,7 +2,7 @@ BACKUP ~weidu_external/backup/trovador~
 //AUTHOR ~riojano2002@hotmail.com~
 SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/61122-trovador-reo-updated-to-v250-ee-compatible/~
 
-VERSION ~v2.4~
+VERSION ~v2.5.0~
 
 README ~trovador/readme/trovador-readme-english.txt~
 
@@ -13,11 +13,11 @@ ALWAYS
 END
 
 
-AUTO_TRA ~weidu_external/tra/trovador/%s~
+AUTO_TRA ~weidu_external/lang/trovador/%s~
 
 LANGUAGE ~Castellano (Clan REO)~
          ~spanish~
-         ~trovador/tra/spanish/setup.tra~
+         ~trovador/lang/spanish/setup.tra~
          ~weidu_external/lang/trovador/spanish/strings.tra~
 
 
