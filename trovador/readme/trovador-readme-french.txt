@@ -69,9 +69,9 @@ Ce mod a été créé en utilisant uniquement les outils suivants :
 4. HISTORIQUE DES VERSIONS
 ==========================
 
-Version 2.5.0 (October 25, 2021)
+Version 2.5.0 (October 26, 2021)
 --------------------------------
-- Added 'trovador.ini' metadata file (including dynamic install order syntax and global `LABELS`) to support AL|EN's "Project Infinity".
+- Added 'trovador.ini' metadata file (including dynamic installation order syntax and global `LABELS`) to support AL|EN's "Project Infinity".
 - Renamed 'setup-trovador.tp2' -> 'trovador.tp2', and moved it to mod top folder to support AL|EN's "Project Infinity".
 - Replaced `AUTHOR` keyword with `SUPPORT`.
 - Added `README` command.

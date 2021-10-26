@@ -1,15 +1,15 @@
 
-![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/Trovador_REO?include_prereleases&color=darkred)<a name="top" id="top"> </a>
-![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/Trovador_REO?color=gold)
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Trovador_REO?include_prereleases&color=darkred)<a name="top" id="top"> </a>
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/Trovador_REO?color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=Spanish&color=limegreen)
 
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BGII%20%7C%20BGT%20%7C%20BG2%3AEE%20%7C%20EET&color=dodgerblue)
 
 
-<div align="center"><h1></a>Trovador REO (WIP)</h1>
+<div align="center"><h1></a>Trovador REO</h1>
 
-<h3>A Spellhold Studios mod for Baldur's Gate II: SoA and ToB (original and EE games),<br>
+<h3>A mod hosted at Spellhold Studios for Baldur's Gate II:ToB (original and EE games),<br>
 Baldur's Gate Trilogy and EET<h3>
 
 </div><br>
@@ -24,11 +24,11 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## 
 
-[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/Trovador_REO?style=plastic)](https://badges.pufler.dev)
-![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/Trovador_REO?style=plastic)
-[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/Trovador_REO?color=cyan&style=plastic)](https://badges.pufler.dev) 
+[![Created Badge](https://badges.pufler.dev/created/SpellholdStudios/Trovador_REO?style=plastic)](https://badges.pufler.dev)
+![GitHub repo size](https://img.shields.io/github/repo-size/SpellholdStudios/Trovador_REO?style=plastic)
+[![Visits Badge](https://badges.pufler.dev/visits/SpellholdStudios/Trovador_REO?color=cyan&style=plastic)](https://badges.pufler.dev) 
 ![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=yes&color=greenlight&style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/Trovador_REO?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/Trovador_REO?size=30&padding=5&bots=true)](https://badges.pufler.dev)
+![GitHub contributors](https://img.shields.io/github/contributors/SpellholdStudios/Trovador_REO?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/SpellholdStudios/Trovador_REO?size=30&padding=5&bots=true)](https://badges.pufler.dev)
 
 ## 
 
@@ -223,9 +223,9 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="versions" id="versions"></a>Version History
 
-##### Version 2.5.0 &nbsp;(October 25, 2021)
+##### Version 2.5.0 &nbsp;(October 26, 2021)
 
-- Added *trovador.ini* metadata file (including dynamic install order syntax and global `LABELS`) to support AL|EN's "Project Infinity".
+- Added *trovador.ini* metadata file (including dynamic installation order syntax and global `LABELS`) to support AL|EN's "Project Infinity".
 - Renamed *setup-trovador.tp2* -> *trovador.tp2*, and moved it to mod top folder to support AL|EN's "Project Infinity".
 - Replaced `AUTHOR` keyword with `SUPPORT`.
 - Added `README` command.
