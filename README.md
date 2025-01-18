@@ -1,3 +1,8 @@
+<hr>
+
+:warning: **The maintenance and support of this project has been moved to a [new repository](https://github.com/Spellhold-Studios/Trovador-REO).**
+
+<hr><br>
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Trovador_REO?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/Trovador_REO?color=gold)
@@ -48,7 +53,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## <a name="intro" id="intro"></a>Overview
 
-<img style="float: left;" src="trovador/readme/images/lrm65s.jpg"> Volo is not the only one who knows stories worth telling. There are many troubadours and bards who travel all over Faerûn risking their lives in order to brighten up the taverns we visit.
+<img style="float: left;" src="trovador/readme/images/lrm65s.jpg"> Volo is not the only one who knows stories worth telling. There are many troubadours and bards who travel all over FaerÃ»n risking their lives in order to brighten up the taverns we visit.
 
 This mod adds a very special troubadour, who, for a few gold pieces, will tell you unheard stories and even the origins of certain characters, such as the mysterious Riojano, or Artemis Entreri.You can find him in Waukeen Promenade. It also adds a shop with curious objects. It is available in Spanish only.
 
@@ -197,7 +202,7 @@ In addition to the methods above for removing individual components, you can com
 - <a href="https://gibberlings3.github.io/iesdp/">IESDP</a>, maintained by igi and lynx.
 - <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a>, by Dmitry Jemerov / bigmoshi.
 - <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=65">Infinity Engine Editor Pro (IEEP)</a>, by Todd.
-- <a href="http://www.gameapps.com/ietme.htm">IE Tilesets Map Editor (IETME)</a>, by Theo de Morée.
+- <a href="http://www.gameapps.com/ietme.htm">IE Tilesets Map Editor (IETME)</a>, by Theo de MorÃ©e.
 - <a href="https://www.gibberlings3.net/mods/tools/dltcep/"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a>, by Avenger.
 - <a href="http://notepad-plus-plus.org/">Notepad++</a>, by the Notepad++ team, Don Ho, and the spellcheck plug-in.
 - <a href="http://www.shsforums.net/files/file/1048-weidu-highlighter-for-notepad/">WeiDU Notepad++ Highlighters</a>, by Argent77.
